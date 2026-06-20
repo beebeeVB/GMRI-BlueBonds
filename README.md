@@ -16,7 +16,10 @@ This is a **full, launchable reference implementation**: real account
 registration, a bond marketplace, live sensor-driven verification, an investment
 flow, and a portfolio whose yield literally tracks coast performance.
 
-📄 See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for the full mechanism.
+📚 **Full documentation lives in [`docs/`](docs/README.md)** — architecture,
+getting started, API reference, data model, engine math, simulation, deployment,
+and limitations. Start at [`docs/README.md`](docs/README.md), or jump to the
+[mechanism overview](docs/ARCHITECTURE.md).
 
 ---
 
@@ -68,7 +71,16 @@ scripts/
   simulate.js         feeds readings (one bond deliberately misses a guardrail)
   reset.js            drop the database
 docs/
+  README.md           documentation index (start here)
   ARCHITECTURE.md     how the money + tech + verification loops connect
+  GETTING_STARTED.md  install, seed, simulate, run, troubleshoot
+  API.md              full HTTP API reference
+  DATA_MODEL.md       database tables and relationships
+  ENGINE.md           coupon + credit math, line by line, with worked example
+  SIMULATION.md       seed + simulation data and how to customize it
+  DEPLOYMENT.md       running and hardening beyond localhost
+  LIMITATIONS.md      what's illustrative vs. real, and the legal boundary
+  CONTRIBUTING.md     setup, conventions, high-value contributions
 ```
 
 ## How the self-sustaining loop works (one paragraph)
