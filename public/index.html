@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tidewater — Blue Bonds for New England Coastal Resilience</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/css/app.css" />
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="nav">
+      <a class="brand" href="#" data-nav="home">
+        <svg class="glyph" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <rect x="1" y="1" width="30" height="30" stroke="#0a7d8c" stroke-width="1.5"/>
+          <path d="M3 21 Q9 14 15 19 T31 17" stroke="#0a7d8c" stroke-width="1.6" fill="none"/>
+          <path d="M3 25 Q9 19 15 23 T31 22" stroke="#0c4a5a" stroke-width="1.6" fill="none" opacity=".55"/>
+          <circle cx="16" cy="11" r="2.4" fill="#0a7d8c"/>
+        </svg>
+        Tidewater
+      </a>
+      <nav class="navlinks">
+        <button data-nav="home">Home</button>
+        <button data-nav="marketplace">Bonds</button>
+        <button data-nav="portfolio" data-auth="1">Portfolio</button>
+      </nav>
+      <div class="usermeta" id="usermeta">
+        <button class="btn ghost sm" data-nav="login">Sign in</button>
+        <button class="btn sm" data-nav="register">Register</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="app">
+  <!-- views injected by app.js -->
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="frow">
+      <span>© 2026 Tidewater Resilience Finance · Boston, MA</span>
+      <span>Demo build · Not an offer to sell securities · figures illustrative</span>
+    </div>
+  </div>
+</footer>
+
+<div class="modal" id="modal">
+  <div class="modalcard" id="modalcard"></div>
+</div>
+
+<script src="/js/app.js"></script>
+</body>
+</html>
